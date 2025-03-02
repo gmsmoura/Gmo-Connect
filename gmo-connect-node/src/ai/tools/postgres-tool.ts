@@ -23,8 +23,8 @@ export const postgresTool = tool({
     Todas as operações devem retornar no máximo 50 itens.
     `.trim(),
     parameters: z.object({
-        query: z.string().describe('A query do PostgreSQL para ser executada.'),
-        params: z.array(z.string()).describe('parâmetros da query a ser executada.')
+        query: z.string().describe('Query do PostgreSQL para ser executada.'),
+        params: z.array(z.string()).describe('Parâmetros da query a ser executada.')
     }),
     execute: async ({ query, params }) => {
         console.log(query, params);
