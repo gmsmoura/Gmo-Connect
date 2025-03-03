@@ -13,19 +13,19 @@ POST http://{{host}}/subscriptions
 Content-Type: application/json
 
 {
-  "name": "Guilherme Moura",
-  "email": "gui_moura6@me.com",
-  "referrer": "6a7d9b6a-6651-4fad-a442-31c4af5cb91f"
+  "name": "Guilherme2",
+  "email": "gui2@me.com",
+  "referrer: ": "6a7d9b6a-6651-4fad-a442-31c4af5cb91f"
 }
 
 ### Access invite link
-GET http://{{host}}/invites/6a7d9b6a-6651-4fad-a442-31c4af5cb91f
+GET http://{{host}}/invites/"3b4c2fdb-cbff-4515-a5c2-12daa2e43655"
 
 ### Get subscriber invites clicks
-GET http://{{host}}/subscribers/6a7d9b6a-6651-4fad-a442-31c4af5cb91f/ranking/clicks
+GET http://{{host}}/subscribers/3b4c2fdb-cbff-4515-a5c2-12daa2e43655/ranking/clicks
 
 ### Get subscriber invites count
-GET http://{{host}}/subscribers/6a7d9b6a-6651-4fad-a442-31c4af5cb91f/ranking/count
+GET http://{{host}}/subscribers/3b4c2fdb-cbff-4515-a5c2-12daa2e43655/ranking/count
 
 ### Get subscriber ranking position
 GET http://{{host}}/subscribers/6a7d9b6a-6651-4fad-a442-31c4af5cb91f/ranking/position
